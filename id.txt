@@ -1,0 +1,342 @@
+6405000013
+He201201
+
+饭卡：912451
+
+tfs:
+贺东山  heds  hds456$%^
+
+svn:
+  账号：hedsh
+  密码：hds123[]\
+
+
+ 10.9.21.160    zxt2000  Zxt2000@ 
+ 10.9.21.158, root/Lab1-129
+ 10.9.21.187，root/Lab1-129
+ 
+sudo mount -t cifs -o username=administrator,password=201201,uid=1000,gid=100 //10.9.43.21/ZXT2000-gbase /tmp/ZXT2000CS10V6.0.08/gbase-bulid-test
+155 cifs
+
+vs2010序列号:
+YCFHQ-9DWCY-DKV88-T2TMH-G7BHP
+
+zcat *|grep -v FILE_END|grep -v MR_HEAD|grep -v time_stamp|wc -l
+
+create table ts_indoor_outdoor(lac int not null,ci int not null,loction int not null);
+
+
+http://blog.zte.com.cn/blog/space/viewspacepost.aspx?postid=23746
+
+cs编译：
+10.9.29.26 用户名和密码为：zxt2000/2000@zxt
+/export/home/zxt2000/max_miao/T2K_SERVER/assocsvr/assoc_bigcdr/src
+
+
+大事件服务器：
+10.9.21.191 iq127/sybaseiq
+/export/home/iq127/Appsvr/assocsvr
+
+F:\code\cs_src\T2K_SERVER\assocsvr\WinsideSelectDll\src\
+
+
+sp_iqhelp ts_cell_detail;
+select latitude,longitude,ncc,bcc,pfreq from ts_cell_detail;
+select * from ts_gsm_nbrcell;
+
+/home/hds/code/ZXT600V3.0.00/build/T2K_SERVER
+
+q127@v490ce0 ~/Appsvr/cdrdispatch> ztp_replay -send chengducdr.dat -s 10.9.21.220 -p 4009
+
+10.9.29.101 root/zxt2000 /home/xiaoxueyao/hds
+svn co https://10.5.73.1:8443/ZXT900_DP10/V6_0/2_Branch/V6.0.00_Abis_mingtong
+
+tcpdump -i eth0 -s0  -waabis.cap -C50 port 3009
+ 
+ 
+ 
+10102486
+miaoshuai.1234
+
+regsvr32 %windir%\system32\jscript.dll
+
+
+ftp://yfwy:73907349@10.9.21.225
+
+
+
+VI编辑：有两种状态，命令状态和编辑状态，按ESC切换到命令状态，才能移动光标，存盘，拷贝粘贴等操作。按a，i等进入编辑状态，此时可以输入。
+按esc键进入命令状态，在此状态使用J  L  K I四个键左右上下移动光标
+yy拷贝一行，4yy拷贝4行
+dd删掉一行，4dd删掉4行
+x删掉一个字符
+p粘帖yy拷贝的东西
+i  进入插入状态，可以打字了
+o插入一行, 进入插入状态
+a增加，进入插入状态
+u回退操作
+
+w：保存
+q：退出
+wq: 保存退出
+q!: 不保存退出
+
+su: 显示行号
+
+MRPos.ini
+可用频点数
+900MHz=95
+1800MHz=125                                        
+
+
+
+  10.9.21.146  T600开发GIS服务器  root/Lab1-129
+xubd 13:04:56
+  10.9.29.165 root/JKzx2012   zxt2000/JKzx2010
+xubd 15:33:13
+  10.9.29.165 db  port：3100，用户名/密码：zxt2000/zxt2000
+
+兄弟，不要乱动他们的东西啊，这个管平台要的
+10.9.29.26
+zxt2000
+2000@zxt            
+
+
+10.9.29.67(suse11)   zxt2000/zxt2000
+10.9.29.158 root/JKzx2012
+10.9.21.146  T600开发GIS服务器  root/Lab1-129          
+
+                                
+sp_columns st_msc_1
+sp_iq_kpiid_check
+sp_iqlocks
+drop connection 54303
+
+sp_iq_table_oneday '20120101'
+exec sp_table_truncate '%20120101%'
+sp_iq_droptb_oneday '20120101'
+
+
+
+select * from dr_abis_20120626 where btime=(select max(btime) from dr_abis_20120626)
+
+
+  存储过程可在Interactive SQL Java中执行
+-x tcpip{port=2639} 用于修改服务器开启的端口。默认是2638，目的是为了再启动一个服务器的时候不与2638这个端口冲突。
+-n psdss 为服务器名（启动SybaseIQ后，在屏幕右下角出现小房子图标，这是SybaseIQ的服务器开启图标，点开弹出页面，左上方的标题就是服务器名）
+-n psdss 为数据库名
+-c 32m Catalog store 使用内存大小
+-gc 20   设置同步间隔时间，第20分钟一次
+-gd all 设置启动数据库许可的用户   “dba”,”all” or “none”
+-gl all 设置LOAD/UNLOAD许可的用户 “dba”,”all” or “none”.
+-gm 200 用于设置数据库的最大连接上限。默认Sybase IQ数据库只能连接10个用户。
+-gp 4096   Set maximum page size
+-ti 4400 闲置用户连接，自动断掉时间（~73小时）
+-ct-    Enable/disable client rver character set conversion.default is enabled
+-iqmc 500 IQ主内存大小，一般占可用同内存40%
+-iqtc 800 IQ临时内存大小，一般占可用同内存60%
+-iqgovern 200 并行查询用户数量，缺省（2*number of cpus）+10
+-iqnumbercpus 2 制定IQ使用的逻辑CPU数量
+-iqtss 300 IQ线程内存大小
+-iqmt 700 IQ线程数
+
+sp_iqstatus 
+
+
+https://10.5.68.55:8443/PROJECT_DOC_CS10/CS10/1.Develop/Project_document/ZXT2000 CS10V6.0/ZXT2000 CS10V6.0.01/2-计划阶段/2.1-设计方案/外部接口
+
+regsvr32 %windir%\system32\jscript.dll
+
+1941323532
+Fph#110991
+
+10.9.29.63:3010
+
+10.45.50.232 3000 ch web 10.9.43.11:8080
+10.45.50.185 3000 en
+10.45.50.132:808
+
+DEELX 正则表达式语法
+http://www.regexlab.com/zh/deelx/syntax.htm
+
+
+自动构建路径 ：\\10.10.210.130
+hwi\yaoyuan
+yy123!@#
+
+find ./ -name '要查找的文件名' | xargs perl -pi -e 's|-msse4|-msse2|g'
+
+295
+
+10.9.21.151 zxt2000/zxt2000
+
+
+dblog -r -t "ntp2000.log" "ntp2000.db"
+dbbackup -y -d -c 'uid=DBA;pwd=sql;eng=10.45.50.232_ntp2000;links="tcpip{host=127.0.0.1;port=3000}"' .
+
+
+
+测试机器的硬件信息：
+
+查看CPU信息（型号）
+# cat /proc/cpuinfo | grep name | cut -f2 -d: | uniq -c
+      8  Intel(R) Xeon(R) CPU            E5410   @ 2.33GHz
+(看到有8个逻辑CPU, 也知道了CPU型号)
+
+# cat /proc/cpuinfo | grep physical | uniq -c
+      4 physical id      : 0
+      4 physical id      : 1
+(说明实际上是两颗4核的CPU)
+
+# getconf LONG_BIT
+   32
+(说明当前CPU运行在32bit模式下, 但不代表CPU不支持64bit)
+
+# cat /proc/cpuinfo | grep flags | grep ' lm ' | wc -l
+   8
+(结果大于0, 说明支持64bit计算. lm指long mode, 支持lm则是64bit)
+
+
+再完整看cpu详细信息, 不过大部分我们都不关心而已.
+# dmidecode | grep 'Processor Information'
+
+查看内 存信息
+# cat /proc/meminfo
+
+# uname -a
+Linux euis1 2.6.9-55.ELsmp #1 SMP Fri Apr 20 17:03:35 EDT 2007 i686 i686 i386 GNU/Linux
+(查看当前操作系统内核信息)
+
+# cat /etc/issue | grep Linux
+Red Hat Enterprise Linux AS release 4 (Nahant Update 5)
+(查看当前操作系统发行版信息)
+
+查看机器型号
+# dmidecode | grep "Product Name" 
+
+查看网卡信息
+# dmesg | grep -i eth
+
+UNC路径 方式访问的，怎么删出保存的密码
+control keymgr.dll 
+
+中国建设银行深圳西丽支行
+6227007201610263592
+
+交通银行
+0516
+798
+4581241319181854
+
+建设银行
+4367480072649307
+692
+0918
+
+2013-07-19 11:11:09 周仁0027003337 对 贺东山6405000013 说：
+0027000827
+2013-07-19 11:11:18 周仁0027003337 对 贺东山6405000013 说：
+Tw8568680
+
+
+ln –s 源文件 目标文件
+
+statrule统计类型:
+      case 0:     // +A, 某个字段值的和
+      case 1:     // +1, 累计次数
+      case 2:     // +(A + B), 某两个字段值的和
+			case 3:     // +(A - B), 时长(毫秒)
+      case 4:     // H + sum(A * (T - B)), 时长(毫秒)
+			case 5:     //	最大值
+			case 6:		  //	最小值
+			case 7:		  //+(A - B)
+			
+			
+svnupdate.sh: line 16: 15283 Segmentation fault      svn checkout --no-auth-cache --username "t600builder" --password "t600abc,./" "https://10.5.73.1:8443/ZXT2000_CS10V6.0.00/V6_0_00/develop/CS10V6.0.01/src/T2K_SERVER"
+
+gdb --batch -ex "thread apply all bt" BcpDataFile_TDR 12908
+strace -p pid
+
+select * from ts_kpi_grade   --KPI指标一级分类配置表
+select * from ts_kpi_class --KPI指标二级分类表，按照接口分
+select * from ts_kpi_dimension   --配置系统支持的维度
+select * from ts_kpi_attribute-- KPI指标属性表
+select * from  ts_kpi_formula
+select * from  ts_kpi_grade_dimension
+
+1.根据进程号进行查询：
+# pstree -p 进程号
+# top -Hp 进程号
+
+2.根据进程名字进行查询：
+# pstree -p `ps -e | grep asiqsrv12 | awk '{print $1}'`
+# pstree -p `ps -e | grep asiqsrv12 | awk '{print $1}'` | wc -l
+
+iostat -m
+
+mstsc -v 221.192.140.101:6659
+http://blog.csdn.net/cpplang/article/details/8462768
+
+10.9.29.173 zxt2000/zxt2000
+
+10.9.29.108 zxt2000/zxt2000
+10.9.29.112 zxt2000/zxt2000
+
+
+http://www.boutell.com/rinetd
+vi /etc/rinetd.conf
+rinetd -c /etc/rinetd.conf
+vi /etc/init.d/after.local
+
+/etc/named.conf
+vi /var/lib/named/deepbit.net.zone
+service named restart 
+nslookup
+
+service squid restart
+
+net use * /delete
+
+www.wemineltc.com
+
+pts Prt7cMkq6rbeqgSsKapkxcgWtVjTJtnLat
+sp_tables
+
+rpm -ivh --force --nodeps 
+-e
+-qa
+
+https://ripple.com
+Important:
+The Secret Account Key below gives access to your money in the unlikely case that you lose your wallet name or passphrase. In that case your contacts will be lost, but with this Secret Account Key alone anyone can retrieve your money. So please store it somewhere PRIVATE AND SAFE. Read more about keys and wallet safety in Security
+Wallet name:he918Pass phrase:********Show
+Ripple Address
+rs261VNQ41JwAgq3JTTDh3sq8xRHpNt5p7
+Secret Account key:
+snNx3LTZmQCcjQ1XbczK2NZBvZbT2
+
+wcg
+he918
+28106460a1319bff992c52267c54e365
+
+zypper ar http://download.opensuse.org/distribution/11.3/repo/oss/ main
+zypper ar http://download.opensuse.org/distribution/11.3/repo/non-oss/ nonoss
+zypper ar http://download.opensuse.org/update/11.3/ update
+
+zypper refresh
+
+readelf -a 
+
+./boinc_client --attach_project http://www.worldcommunitygrid.org 9d87b00d0ab8551b41d1a06e00f6df68 --daemon
+
+dog DCjUEzHQTy8w2pVbTXSQkcm8Yi5m9K5EB6
+
+https://smarthosts.googlecode.com/svn/trunk/hosts
+/etc/init.d/nscd restart     或 service
+ipconfig /flushdns
+
+export LC_ALL=zh_CN
+
+windows下：
+netstat -a
+netstat -b -v
